@@ -1,57 +1,12 @@
-# Ant Design Pro
+# PageContainer-Bug
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+1. 登陆后进入首页点击下方按钮 👇
+2. F12 打开面板
+3. F5 刷新页面然后点击浏览器的返回上一页
+4. 🤯 控制台会提示一下 Warning
 
-## Environment Prepare
-
-Install `node_modules`:
-
-```bash
-npm install
 ```
-
-or
-
-```bash
-yarn
+Warning: Can't perform a React state update on an unmounted component. This is a no-op,
+          but it indicates a memory leak in your application. To fix, cancel all subscriptions and
+          asynchronous tasks in a useEffect cleanup function.
 ```
-
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
-### Start project
-
-```bash
-npm start
-```
-
-### Build project
-
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
